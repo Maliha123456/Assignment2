@@ -10,17 +10,20 @@
 
 
 
+ /* Global Style Value  */
+
 :root {
 
-   
+    /* Global Color  */
     --primary-color: #DD0000;
     --item-bg-color: #161616;
     --color-white: #FFFFFF;
     --color-black: #000000;
 
-   
+    /* Global Typography */
     --body-font: 'Poppins', sans-serif;
 
+    /* Global Common Style  */
     --item-border: 1px solid #E8E8E8;
 }
 
@@ -30,8 +33,9 @@ body {
 
 
 
-/* /Utility Style    */
--------------------------------- */
+
+     /*Utility Style    */
+
 .container {
     display: flex;
     justify-content: center;
@@ -86,9 +90,9 @@ main {
 
 
 
- /* banner Section Style Start */
+ /* Hero Section Style Start */
 
-.banner {
+.hero {
     background-color: var(--item-bg-color);
     border-radius: 30px;
     padding: 2% 7% 0px;
@@ -118,12 +122,6 @@ main {
     width: 90%;
     margin: 0 0 -7px 8%;
 }
-
-
- /* banner Section Style End */
-
-
-
 
 
 /* Body Item  */
@@ -192,7 +190,7 @@ main {
 }
 
 
-/* News Item Style  */
+/* game Style  */
 .game {
     border: 1px solid #E8E8E8;
     border-radius: 10px;
@@ -391,7 +389,7 @@ footer {
     }
 
     /* Hero Section Style */
-    .banner {
+    .hero {
         padding: 40px 38px 0px;
     }
     .half-width h1 {
