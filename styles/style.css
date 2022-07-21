@@ -137,10 +137,6 @@ Body Item Container Style Start
 .side-container {
     display: grid;
 
-    /*  ****** Flexible Sidebar ******
-    grid-template-columns: 3fr 9fr; 
-*/
-
     grid-template-columns: 320px 1fr;
     gap: 24px;
     margin: 70px 0;
@@ -214,7 +210,7 @@ Body Item Container Style Start
 }
 
 
-.thumbnail img {
+.show img {
     width: 100%;
 }
 
@@ -279,20 +275,20 @@ Body Item Container Style Start
     box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.15);
 }
 
-.match-thumbnail {
+.match-pic {
     display: grid;
     grid-template-columns: 4fr 3fr 4fr;
     justify-content: center;
     align-items: center;
 }
 
-.match-thumbnail img {
+.match-pic img {
     width: 100%;
     border: 1px solid #E8E8E8;
 }
 
 
-.match-thumbnail h3 {
+.match-pic h3 {
     font-weight: 700;
     font-size: 16px;
     color: var(--item-bg-color);
@@ -567,12 +563,12 @@ footer {
     }
 
     /* Body  */
-    .wraper-container {
+    .side-container {
         grid-template-columns: 1fr;
         margin: 0;
         row-gap: 0;
     }
-    .news-item-box {
+    .container2 {
         grid-template-columns: repeat(2, 1fr);
     }
     .side-menu {
@@ -620,7 +616,7 @@ footer {
     }
 
     /* Body  */
-    .news-item-box {
+    .container2 {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -637,7 +633,7 @@ footer {
 
 
     /* Body  */
-    .news-item-box {
+    .container2{
         grid-template-columns: repeat(2, 1fr);
     }
 }
