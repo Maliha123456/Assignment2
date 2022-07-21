@@ -1,9 +1,7 @@
 /* Import Font from GOOGLE  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-/* --------------------------------
- Reset Default Margin Padding 
--------------------------------- */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -11,21 +9,18 @@
 }
 
 
-/* -----------------------
- Global Style Value 
------------------------  */
+
 :root {
 
-    /* Global Color  */
+   
     --primary-color: #DD0000;
     --item-bg-color: #161616;
     --color-white: #FFFFFF;
     --color-black: #000000;
 
-    /* Global Typography */
+   
     --body-font: 'Poppins', sans-serif;
 
-    /* Global Common Style  */
     --item-border: 1px solid #E8E8E8;
 }
 
@@ -35,8 +30,7 @@ body {
 
 
 
-/* --------------------------------
-     Common/Utility Style   
+/* /Utility Style    */
 -------------------------------- */
 .container {
     display: flex;
@@ -91,9 +85,9 @@ main {
 
 
 
-/* ----------------------------
- Hero Section Style Start
----------------------------- */
+
+ /* banner Section Style Start */
+
 .banner {
     background-color: var(--item-bg-color);
     border-radius: 30px;
@@ -125,15 +119,15 @@ main {
     margin: 0 0 -7px 8%;
 }
 
-/* ----------------------------
- Hero Section Style End
----------------------------- */
+
+ /* banner Section Style End */
 
 
 
-/* ---------------------------------
-Body Item Container Style Start
---------------------------------- */
+
+
+/* Body Item  */
+
 .side-container {
     display: grid;
 
@@ -258,7 +252,7 @@ Body Item Container Style Start
 
 
 
-/* Match Fixing Schedule Style  */
+/* Match Fixing  Style  */
 .match-item {
     display: flex;
     flex-direction: column;
@@ -464,9 +458,9 @@ footer {
 
 
 
-/* ------------------------------------------------
- Responsive Style For Landscape Mobile Device
------------------------------------------------- */
+
+ /* Responsive Style For Landscape Mobile Device */
+
 @media only screen and (min-width: 576.1px) and (max-width: 767px) {
 
     /* Common Style  */
@@ -620,9 +614,8 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
 }
-/* ---------------------------------------------
- Responsive Style For Large Laptop Device
---------------------------------------------- */
+ /* Responsive Style For Large Laptop Device */
+
 @media only screen and (min-width: 1201px) and (max-width: 1450px) {
 
     /* Hero Section Style */
